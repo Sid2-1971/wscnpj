@@ -1,4 +1,6 @@
-class receitaws(models.wscnpj):
+from odoo import models, fields, api
+
+class receitaws(models.Models):
      _name = 'receitaws.receitaws'
 
      name = fields.Char()
