@@ -8,7 +8,7 @@
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="priority">33</field>
             <field name="arch" type="xml">              
-                <field name="cnpj_cpf" position="after">
+                <field name="cnpj_cpf" position="after" style="width:50%">
                     <button name="cnpj_search" type="object" class="oe_inline">
                         <i class="fa fa-search"></i>
                     </button>
