@@ -1,6 +1,6 @@
 from odoo import models, fields, api
 
-class receitaws(models.Models):
+class receitaws(models.Model):
      _name = 'receitaws.receitaws'
 
      name = fields.Char()
