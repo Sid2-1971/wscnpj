@@ -1,4 +1,4 @@
-class receitaws(models.Model):
+class receitaws(models.wscnpj):
      _name = 'receitaws.receitaws'
 
      name = fields.Char()
