@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="wscnpj_view_partner_form2" model="ir.ui.view">
+            <field name="name">wscnpj.partner.form2</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="priority">33</field>
+            <field name="arch" type="xml">              
+                <field name="cnpj_cpf" position="after">
+                    <button name="cnpj_search" type="object" class="oe_inline">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </field>
+            </field>
+        </record>
+
+    </data>
+</odoo>
