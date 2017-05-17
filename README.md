@@ -1,1 +1,1 @@
-Modulo de Consulta a webService de cadastros de CNPJ
+Modulo que Consulta a webService CNPJ
